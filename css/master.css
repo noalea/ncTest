@@ -1,0 +1,86 @@
+* {
+  transition-timing-function: ease-in-out;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  transition: 0.5s;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box; }
+
+html, body {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: "Nunito", sans-serif;
+  font-weight: 200;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%; }
+  html input[type=text]:focus, html .btn:focus, body input[type=text]:focus, body .btn:focus {
+    outline: none !important; }
+  html .border, body .border {
+    border: 2px solid #000000; }
+  html .btn, body .btn {
+    -webkit-box-shadow: 3px 3px 0px 0px black;
+    -moz-box-shadow: 3px 3px 0px 0px black;
+    box-shadow: 3px 3px 0px 0px black;
+    border-radius: 0;
+    background-color: #ffffff;
+    vertical-align: initial;
+    font-size: 16px; }
+  html .btn:hover, body .btn:hover {
+    box-shadow: 5px 5px 0px 0px black; }
+  html .input-error, body .input-error {
+    border-color: #ee4949;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -ms-transition: 0.2s;
+    transition: 0.2s; }
+  html .container, body .container {
+    width: 70%;
+    margin: 0 auto; }
+    @media screen and (max-width: 768px) {
+      html .container, body .container {
+        width: 80%; } }
+    html .container .header, body .container .header {
+      text-align: center;
+      padding: 20px 0;
+      -ms-input-placeholder-color: #333; }
+      html .container .header .heading, body .container .header .heading {
+        margin-bottom: 20px; }
+      html .container .header .input, body .container .header .input {
+        margin-right: 10px;
+        padding: 6px 12px;
+        font-size: 16px;
+        border-radius: 0; }
+        @media screen and (max-width: 768px) {
+          html .container .header .input, body .container .header .input {
+            width: 50%; } }
+      html .container .header ::-webkit-input-placeholder, body .container .header ::-webkit-input-placeholder {
+        color: #333; }
+      html .container .header ::-moz-placeholder, body .container .header ::-moz-placeholder {
+        color: #333; }
+  html .content .card, body .content .card {
+    text-align: center;
+    padding: 15px; }
+    html .content .card .card-content, body .content .card .card-content {
+      height: 200px;
+      text-align: right; }
+      html .content .card .card-content .remove, body .content .card .card-content .remove {
+        margin-top: 10px;
+        margin-right: 13px; }
+        html .content .card .card-content .remove .btn, body .content .card .card-content .remove .btn {
+          padding: 0px 8px 2px 8px; }
+      html .content .card .card-content .message, body .content .card .card-content .message {
+        display: flex;
+        justify-content: space-around;
+        height: calc(100%);
+        margin-top: -36px; }
+        html .content .card .card-content .message p, body .content .card .card-content .message p {
+          align-self: center;
+          text-align: center; }
+
+/*# sourceMappingURL=master.css.map */
